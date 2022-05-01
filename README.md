@@ -138,3 +138,21 @@ After saving the job run the job as soon as you commit the code from vscode then
 <p align="center">
   <img width="1000" height="550" src="https://github.com/amit17133129/Build-Deploy-Apps-Jenkins-K8s-Docker/blob/main/task-images/jenkins-task.gif?raw=true">
 </p>
+
+## JOb run sucessfully 
+
+
+<p align="center">
+  <img width="1000" height="100" src="https://github.com/amit17133129/Build-Deploy-Apps-Jenkins-K8s-Docker/blob/main/task-images/job.png?raw=true">
+</p>
+
+<p align="center">
+  <img width="1000" height="400" src="https://github.com/amit17133129/Build-Deploy-Apps-Jenkins-K8s-Docker/blob/main/task-images/job-2.png?raw=true">
+</p>
+
+## Application-Status
+
+<p align="center">
+  <img width="1000" height="200" src="https://github.com/amit17133129/Build-Deploy-Apps-Jenkins-K8s-Docker/blob/main/task-images/pods-svc.png?raw=true">
+</p>
+
