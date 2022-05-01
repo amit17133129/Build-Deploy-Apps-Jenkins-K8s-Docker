@@ -150,6 +150,10 @@ After saving the job run the job as soon as you commit the code from vscode then
   <img width="1000" height="400" src="https://github.com/amit17133129/Build-Deploy-Apps-Jenkins-K8s-Docker/blob/main/task-images/job-2.png?raw=true">
 </p>
 
+## Docker image pushed 
+<p align="center">
+  <img width="1000" height="350" src="https://github.com/amit17133129/Build-Deploy-Apps-Jenkins-K8s-Docker/blob/main/task-images/docker-images-pushed.png?raw=true">
+</p>
 ## Application-Status
 
 <p align="center">
