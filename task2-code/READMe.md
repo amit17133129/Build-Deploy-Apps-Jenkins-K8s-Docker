@@ -42,5 +42,5 @@ aws ec2 describe-snapshots  --output text  --owner-ids self  --query 'Snapshots[
 aws ec2 create-tags --resources snapchot-id --tags 'Key="env",Value=test'
 ```
 <p align="center">
-  <img width="1000" height="200" src="https://github.com/amit17133129/Build-Deploy-Apps-Jenkins-K8s-Docker/blob/main/task-images/task2-images/snapshhot-tags.png?raw=true">
+  <img width="1000" height="175" src="https://github.com/amit17133129/Build-Deploy-Apps-Jenkins-K8s-Docker/blob/main/task-images/task2-images/snapshhot-tags.png?raw=true">
 </p>
