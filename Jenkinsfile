@@ -16,7 +16,7 @@ pipeline{
             name: 'namespace', 
             trim: true
             ) 
-    }
+    } 
     environment {
         dockerImage = ''
         registry    = 'amitsharma17133129/apache-app-citymall'
