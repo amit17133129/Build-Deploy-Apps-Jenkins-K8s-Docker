@@ -57,8 +57,8 @@ pipeline{
         stage("Deploying Application to K8S Cluster"){
             steps{
                 script {
-                    sh 'kubectl create deploy ${deployment_name} --image=${registry}           -n ${namespace}'
-                    sh 'kubectl expose deploy ${deployment_name} --type=NodePort --port=80     -n ${namespace}'
+                    sh 'kubectl create deploy ${deployment_name} --image=${registry}    -n  ${namespace}'
+                    sh 'kubectl expose deploy ${deployment_name} --type=NodePort --port=80   -n   ${namespace}'
                     }
                 }
             }
