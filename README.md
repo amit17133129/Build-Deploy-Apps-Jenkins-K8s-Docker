@@ -126,3 +126,9 @@ pipeline{
 <p align="center">
   <img width="1000" height="150" src="https://github.com/amit17133129/Build-Deploy-Apps-Jenkins-K8s-Docker/blob/main/task-images/docker-hub-cred.png?raw=true">
 </p>
+
+## Using Git as a SCM in pipeline script to pull jenkinsfile
+
+<p align="center">
+  <img width="1000" height="650" src="https://github.com/amit17133129/Build-Deploy-Apps-Jenkins-K8s-Docker/blob/main/task-images/pipeline-script.png?raw=true">
+</p>
