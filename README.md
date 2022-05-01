@@ -132,3 +132,9 @@ pipeline{
 <p align="center">
   <img width="1000" height="650" src="https://github.com/amit17133129/Build-Deploy-Apps-Jenkins-K8s-Docker/blob/main/task-images/pipeline-script.png?raw=true">
 </p>
+
+After saving the job run the job as soon as you commit the code from vscode then the jenkins pipeline will run automatically. Here how its look like.
+
+<p align="center">
+  <img width="1000" height="550" src="https://github.com/amit17133129/Build-Deploy-Apps-Jenkins-K8s-Docker/blob/main/task-images/jenkins-task.gif?raw=true">
+</p>
