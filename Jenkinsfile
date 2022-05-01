@@ -8,7 +8,7 @@ pipeline{
             )
         string(
             defaultValue: 'citymall-app', 
-            name: 'deployment_name', 
+            name: 'deployment_name',  
             trim: true
             )
         string(
