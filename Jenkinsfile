@@ -7,12 +7,12 @@ pipeline{
             trim: true
             )
         string(
-            defaultValue: '', 
+            defaultValue: 'citymall-app', 
             name: 'deployment_name', 
             trim: true
             )
         string(
-            defaultValue: '', 
+            defaultValue: 'default', 
             name: 'namespace', 
             trim: true
             ) 
