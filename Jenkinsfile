@@ -2,7 +2,7 @@ pipeline{
     agent any
     parameters {
         string(
-            defaultValue: 'main', 
+            defaultValue: 'main',
             name: 'branch_name', 
             trim: true
             )
