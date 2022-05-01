@@ -118,8 +118,11 @@ pipeline{
 ## Adding GitHub Webhook in jenkins
 
 <p align="center">
-  <img width="800" height="300" src="https://github.com/amit17133129/Build-Deploy-Apps-Jenkins-K8s-Docker/blob/main/task-images/Course-OutLine.png?raw=true">
+  <img width="800" height="200" src="https://github.com/amit17133129/Build-Deploy-Apps-Jenkins-K8s-Docker/blob/main/task-images/Course-OutLine.png?raw=true">
 </p>
 
 ## Adding Dockerhub credentials in jenkins
 
+<p align="center">
+  <img width="1000" height="150" src="https://github.com/amit17133129/Build-Deploy-Apps-Jenkins-K8s-Docker/blob/main/task-images/docker-hub-cred.png?raw=true">
+</p>
