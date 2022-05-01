@@ -6,6 +6,16 @@ pipeline{
             name: 'branch_name', 
             trim: true
             )
+        string(
+            defaultValue: '', 
+            name: 'deployment_name', 
+            trim: true
+            )
+        string(
+            defaultValue: '', 
+            name: 'namespace', 
+            trim: true
+            ) 
     }
     environment {
         dockerImage = ''
@@ -43,6 +53,24 @@ pipeline{
                 }
             }
         }
-    }
 
+        stage("Deploying Application to K8S Cluster"){
+            steps{
+                script {
+                    sh 'kubectl create deploy ${deployment_name} --image=${registry}           -n {namespace}'
+                    sh 'kubectl expose deploy ${deployment_name} --type=NodePort --port=80     -n {namespace}'
+                    }
+                }
+            }
+        
+        stage("Verifying application"){
+            steps{
+                script {
+                    sh 'kubectl get pods -n {namespace}'
+                    sh 'kubectl get svc  -n {namespace}'
+                    }
+                }
+            }
+        }
 }
+    
