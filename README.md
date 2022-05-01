@@ -7,6 +7,11 @@ In this article you find below topics:
 - How to deploy an application inside kubernetes cluster.
 
 So, lets start by creating an simple application wriiten in `html`. Below is the code of the appliction.
+I have installed jenkins and minikube in different servers over aws as you can see below.
+
+<p align="center">
+  <img width="1000" height="85" src="https://github.com/amit17133129/Build-Deploy-Apps-Jenkins-K8s-Docker/blob/main/task-images/servers.png?raw=true">
+</p>
 
 ![html](https://github.com/amit17133129/Build-Deploy-Apps-Jenkins-K8s-Docker/blob/main/task-images/application.png?raw=true)
 
